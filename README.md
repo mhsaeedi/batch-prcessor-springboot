@@ -53,9 +53,3 @@ management API like 'localhost:8081/system/health'.
 * Code review 
 * Other guidelines
 
-### Who do I talk to? ###
-
-- Abrahale Tewelde (abrahale.tewelde@visual-meta.com)
-- Johannes Günter (johannes.guenther.external@visual-meta.com)
-- Mario Bislick (mario.bislick.external@visual-meta.com)
-- Orkun Akile (orkun.akile@visual-meta.com)
