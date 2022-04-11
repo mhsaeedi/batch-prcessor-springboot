@@ -1,0 +1,56 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: {{namespace}}
+  name: {{tier}}
+  labels:
+    tier: {{tier}}
+    environment: {{environment}}
+    app: {{tier}}
+    branch: {{branch}}
+    project: {{app}}
+    team: {{namespace}}
+spec:
+  selector:
+    app: {{tier}}
+  ports:
+  - port: {{targetPort}}
+    protocol: TCP
+    targetPort: {{targetPort}}
+
+---
+
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: {{namespace}}
+  name: {{tier}}
+  labels:
+    app: {{tier}}
+    project: {{app}}
+    team: {{namespace}}
+spec:
+  replicas: {{replicas}}
+  template:
+    metadata:
+      labels:
+        app: {{tier}}
+    spec:
+      containers:
+      - name: {{tier}}
+        image: {{registry}}.visual-meta.com/{{app}}/{{app}}-{{tier}}-{{branch}}:{{tag}}
+        ports:
+        - containerPort: {{targetPort}}
+        readinessProbe:
+          httpGet:
+            path: {{readinessHttpGetURL}}
+            port: {{readinessHttpPort}}
+          initialDelaySeconds: {{readinessInitialDelaySeconds}}
+          timeoutSeconds: {{readinessTimeoutSeconds}}
+        resources:
+          limits:
+            memory: 2Gi
+            cpu: 1000m
+          requests:
+            memory: 500Mi
+            cpu: 500m

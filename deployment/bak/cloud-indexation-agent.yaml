@@ -1,0 +1,53 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloud-indexation-agent
+  namespace: rabbits
+  labels:
+    app: cloud-indexation-agent
+    project: cloud-indexation-agent
+    team: rabbits
+spec:
+  selector:
+    app: cloud-indexation-agent
+  ports:
+  - port: 8087
+    protocol: TCP
+    targetPort: 8087
+
+---
+
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: cloud-indexation-agent
+  namespace: rabbits
+  labels:
+    app: cloud-indexation-agent
+    project: cloud-indexation-agent
+    team: rabbits
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: cloud-indexation-agent
+    spec:
+      containers:
+      - name: cloud-indexation-agent
+        image: registry.visual-meta.com/cloud-indexation-agent/cloud-indexation-agent:latest
+        ports:
+        - containerPort: 8087
+        readinessProbe:
+          httpGet:
+            path: /cloud-indexation-agent/health/readiness
+            port: 8087
+          initialDelaySeconds: 30
+          timeoutSeconds: 5
+        resources:
+          limits:
+            memory: 2Gi
+            cpu: 1000m
+          requests:
+            memory: 500Mi
+            cpu: 500m
