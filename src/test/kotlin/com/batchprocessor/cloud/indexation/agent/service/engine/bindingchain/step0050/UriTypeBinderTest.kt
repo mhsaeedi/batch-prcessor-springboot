@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.extension.ExtendWith
 
 /**
- * @author : Mohammad <mohammad.saeedi></mohammad.saeedi>@visual-meta.com>
+ * @author : Momo
  * @since : 25.10.21, Mon
  */
 @ExtendWith(MockKExtension::class)

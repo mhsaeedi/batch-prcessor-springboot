@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service
 import java.util.concurrent.ConcurrentHashMap
 
 /**
- * @author : Mohammad <mohammad.saeedi></mohammad.saeedi>@visual-meta.com>
+ * @author : Momo
  * @since : 27.10.21, Wed
  */
 @Service

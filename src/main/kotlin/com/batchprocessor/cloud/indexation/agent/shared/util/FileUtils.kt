@@ -12,7 +12,7 @@ import java.io.File
 import javax.xml.stream.XMLInputFactory
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 11.10.21, Mon
  *
  **/

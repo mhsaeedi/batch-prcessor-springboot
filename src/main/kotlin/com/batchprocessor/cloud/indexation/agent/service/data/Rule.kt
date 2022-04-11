@@ -1,7 +1,7 @@
 package com.batchprocessor.cloud.indexation.agent.service.data
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 01.11.21, Mon
  *
  **/
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 28.10.21, Thu
  *
  **/

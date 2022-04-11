@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
 
 /**
- * @author : Mohammad <mohammad.saeedi></mohammad.saeedi>@visual-meta.com>
+ * @author : Momo
  * @since : 26.10.21, Tue
  */
 abstract class Cache<KEY, ENTITY, VALUE> {

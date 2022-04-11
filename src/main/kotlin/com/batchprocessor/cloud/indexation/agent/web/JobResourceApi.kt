@@ -13,7 +13,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PathVariable
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 18.10.21, Mon
  *
  **/

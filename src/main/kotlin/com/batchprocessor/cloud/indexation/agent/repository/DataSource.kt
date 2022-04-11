@@ -13,7 +13,7 @@ import javax.sql.DataSource
 
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 26.10.21, Tue
  *
  **/

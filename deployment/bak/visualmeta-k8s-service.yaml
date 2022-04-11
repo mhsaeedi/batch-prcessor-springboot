@@ -38,6 +38,6 @@ spec:
     spec:
       containers:
       - name: {{app}}
-        image: {{registry}}.visual-meta.com/{{app}}/{{app}}:{{tag}}
+        image: {{registry}}.some-domain.com/{{app}}/{{app}}:{{tag}}
         ports:
         - containerPort: {{targetPort}}

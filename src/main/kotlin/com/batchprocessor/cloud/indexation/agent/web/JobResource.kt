@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 08.10.21, Fri
  *
  **/

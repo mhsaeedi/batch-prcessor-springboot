@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service
 import java.util.concurrent.CompletableFuture
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 08.10.21, Fri
  *
  **/

@@ -3,7 +3,7 @@ package com.batchprocessor.cloud.indexation.agent.shared.util
 import com.batchprocessor.cloud.indexation.agent.shared.constant.WeeklyDaily
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 25.10.21, Mon
  *
  **/

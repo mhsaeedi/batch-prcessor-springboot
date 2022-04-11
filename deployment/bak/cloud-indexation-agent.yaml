@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
       - name: cloud-indexation-agent
-        image: registry.visual-meta.com/cloud-indexation-agent/cloud-indexation-agent:latest
+        image: registry.some-domain:latest
         ports:
         - containerPort: 8087
         readinessProbe:

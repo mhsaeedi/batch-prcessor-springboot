@@ -4,7 +4,7 @@ import com.batchprocessor.cloud.indexation.agent.service.data.Job
 import com.batchprocessor.cloud.indexation.agent.service.data.Uri
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 11.10.21, Mon
  *
  **/

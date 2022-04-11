@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service
 import java.io.File
 
 /**
- * @author renan.arend@visual-meta.com
+ * @author Momo
  * @since  12.11.2021
  */
 @Service

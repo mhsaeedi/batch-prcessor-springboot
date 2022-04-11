@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate
 import java.util.*
 
 /**
- * @author : Mohammad <mohammad.saeedi></mohammad.saeedi>@visual-meta.com>
+ * @author : Momo
  * @since : 26.10.21, Tue
  */
 @Service

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
 /**
- * @author : Mohammad <mohammad.saeedi></mohammad.saeedi>@visual-meta.com>
+ * @author : Momo
  * @since : 27.10.21, Wed
  */
 internal class ShopCountBinderTest {

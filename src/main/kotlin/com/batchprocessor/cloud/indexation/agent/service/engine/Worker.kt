@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.Async
 import org.springframework.stereotype.Service
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 11.10.21, Mon
  *
  **/

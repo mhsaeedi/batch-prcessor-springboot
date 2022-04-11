@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
       - name: {{tier}}
-        image: {{registry}}.visual-meta.com/{{app}}/{{app}}-{{tier}}-{{branch}}:{{tag}}
+        image: {{registry}}.some-domain.com/{{app}}/{{app}}-{{tier}}-{{branch}}:{{tag}}
         ports:
         - containerPort: {{targetPort}}
         readinessProbe:

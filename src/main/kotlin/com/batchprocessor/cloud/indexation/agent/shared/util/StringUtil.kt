@@ -3,7 +3,7 @@ package com.batchprocessor.cloud.indexation.agent.shared.util
 import com.batchprocessor.cloud.indexation.agent.shared.constant.LineSegment
 
 /**
- * @author : Mohammad <mohammad.saeedi@visual-meta.com>
+ * @author : Momo
  * @since : 22.10.21, Fri
  *
  **/
